@@ -8,11 +8,7 @@ const port = 5000;
 connectDB();
 
 // Middleware
-app.use(cors({
-    origin:[""],
-    methods:["POST","GET"],
-    credentials:true
-}));
+app.use(cors({}));
 app.use(express.json());
 
 // Routes
