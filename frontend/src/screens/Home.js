@@ -13,7 +13,7 @@ export default function Home() {
 
   const loadFoodItems = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/foodData', {
+      const response = await axios.get('https://food-kzao-sumits-projects-94d902d7.vercel.app/api/foodData', {
         headers: {
           'Content-Type': 'application/json',
         },
